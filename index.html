@@ -3,34 +3,342 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Anka – Anka</title>
-<style>
-  body { margin: 0; background: #F6F1EA; color: #2B2A28; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
-  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 8px; }
-  h2 { font-size: 20px; margin: 32px 0 8px; color: #1F4E5A; }
-  p, li { margin: 8px 0; }
-  a { color: #1F4E5A; }
-  code { background: #EFE8DE; padding: 1px 5px; border-radius: 4px; }
-  nav { margin-bottom: 24px; font-size: 15px; }
-  nav a { margin-right: 16px; }
-  footer { margin-top: 48px; font-size: 14px; color: #6B655E; }
-</style>
+<title>Anka: Trennung und Scheidung ordnen</title>
+<meta name="description" content="Anka ist die App für Trennung und Scheidung in Deutschland: Aufgaben, Unterlagen, Kinder und Anwalt an einem Ort. Ohne Konto, verschlüsselt auf deinem Handy.">
+<meta property="og:title" content="Anka: Trennung und Scheidung ordnen">
+<meta property="og:description" content="Aufgaben, Unterlagen, Kinder und Anwalt an einem Ort. Ohne Konto, verschlüsselt auf deinem Handy.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/icon-192.png">
+<meta name="theme-color" content="#F6F1EA">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<nav><a href="index.html">Anka</a><a href="datenschutz.html">Datenschutz</a><a href="agb.html">AGB</a><a href="impressum.html">Impressum</a></nav>
-<h1>Anka</h1>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
 
-<p>Anka hilft dir, Trennung und Scheidung ruhig zu ordnen: Aufgaben, Unterlagen, Kinder und Anwalt an einem Ort. Deine Daten bleiben auf deinem Gerät.</p>
-<p>Anka bietet allgemeine Informationen und Organisationshilfen und ist keine Rechtsberatung.</p>
-<ul>
-<li><a href="datenschutz.html">Datenschutzerklärung</a></li>
-<li><a href="agb.html">Nutzungsbedingungen (AGB)</a></li>
-<li><a href="impressum.html">Impressum</a></li>
-</ul>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="img/icon-192.png" alt="" width="36" height="36">Anka</a>
+    <nav class="main" aria-label="Hauptnavigation">
+      <a class="hide-sm" href="#funktionen">Funktionen</a>
+      <a class="hide-sm" href="#preise">Preise</a>
+      <a class="hide-sm" href="#datenschutz">Datenschutz</a>
+      <a class="hide-sm" href="#faq">Fragen</a>
+      <span class="btn btn-soon" aria-disabled="true">Bald bei Google Play</span>
+    </nav>
+  </div>
+</header>
 
-<footer>TwelveDonkeys, Inhaberin Zehra Genc, Kleine Ehrenfeldstraße 6, 44789 Bochum · info@twelvedonkeys.de</footer>
+<main id="inhalt">
+
+<section class="hero" aria-labelledby="titel">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Die App für Trennung und Scheidung in Deutschland</p>
+      <h1 id="titel">Du musst nicht alles im Kopf behalten. Anka ordnet es für dich.</h1>
+      <p class="lead">Aufgaben in der richtigen Reihenfolge, Unterlagen, Umgang mit den Kindern und die Vorbereitung auf den Anwalt. Alles an einem Ort, auf deinem Handy und ohne Konto.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#funktionen">Funktionen ansehen</a>
+        <a class="btn btn-ghost" href="#preise">Was kostet Anka?</a>
+      </div>
+      <ul class="facts">
+        <li>Daten bleiben auf deinem Gerät</li>
+        <li>Keine Werbung, kein Tracking</li>
+        <li>Hilfe immer kostenlos</li>
+      </ul>
+    </div>
+    <div class="phone" role="img" aria-label="Startbildschirm der Anka-App mit nächstem Schritt und acht Bereichen">
+      <img src="img/start.webp" alt="" width="640" height="1385">
+    </div>
+  </div>
+</section>
+
+<section id="funktionen" class="alt" aria-labelledby="funktionen-titel">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="funktionen-titel">Was Anka für dich übernimmt</h2>
+      <p>Elf Funktionen, die zusammenarbeiten. Jede löst eine konkrete Aufgabe in deiner Trennung.</p>
+    </div>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/aufgaben.webp" alt="Aufgabenliste mit Gruppen Jetzt dran und Als Nächstes" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Fahrplan</p>
+        <h3>Aufgaben in der richtigen Reihenfolge</h3>
+        <p>Nach fünf kurzen Fragen stellt Anka dir einen persönlichen Plan zusammen. Jede Aufgabe ist einsortiert: jetzt dran, als Nächstes, später.</p>
+        <ul>
+          <li>Mit einem Tipp abhaken oder als nicht zutreffend ausblenden</li>
+          <li>Eigene Aufgaben hinzufügen</li>
+          <li>Gesamtfortschritt immer im Blick</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/aufgabe_detail.webp" alt="Aufgabe mit Erklärung, warum sie wichtig ist" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Verstehen</p>
+        <h3>Du weißt, warum eine Aufgabe zählt</h3>
+        <p>Zu jeder Aufgabe gibt es eine kurze, verständliche Erklärung und, wo es passt, den passenden Wissensartikel.</p>
+        <ul>
+          <li>Begründung statt Paragrafen</li>
+          <li>Direkt zum passenden Artikel</li>
+          <li>Trennungsdatum direkt aus der Aufgabe eintragen</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/dokumente.webp" alt="Dokumentenliste mit Unterlagen-Status" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Unterlagen</p>
+        <h3>Du siehst, welche Unterlagen noch fehlen</h3>
+        <p>Eine Liste mit 25 typischen Unterlagen für Trennung und Scheidung, nach Bereichen sortiert. Du legst sie verschlüsselt auf deinem Handy ab.</p>
+        <ul>
+          <li>PDF oder Foto direkt hinzufügen</li>
+          <li>Hinweis, wofür jede Unterlage gebraucht wird</li>
+          <li>Einzeln teilen oder per E-Mail senden</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/umgang.webp" alt="Umgangskalender mit gefüllten und leeren Kreisen" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Kinder und Umgang</p>
+        <h3>Der Umgang für vier Wochen geplant</h3>
+        <p>Du wählst eine Vorlage oder tippst die Tage selbst an. Der Kalender zeigt, wann das Kind bei dir ist und wann beim anderen Elternteil.</p>
+        <ul>
+          <li>Vier-Wochen-Plan mit Sonderterminen und Tausch</li>
+          <li>Leitfaden für das Gespräch mit den Kindern</li>
+          <li>Kinderkosten gemeinsam aufteilen</li>
+          <li>Export als PDF oder Kalenderdatei</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/anwalt.webp" alt="Fenster Unterlagen an meinen Anwalt senden" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Anwalt</p>
+        <h3>Vorbereitet zum Erstgespräch</h3>
+        <p>Anka sammelt Fragen für deinen Anwalt, du ergänzt Notizen. Du trägst deinen Anwalt einmal ein und schickst ihm Unterlagen direkt aus der App per E-Mail.</p>
+        <ul>
+          <li>Dossier als PDF mit deinen Angaben und Fragen</li>
+          <li>Vermögen und Schulden, Tagebuch, Umgangsplan und Dokumente als Anhang</li>
+          <li>Vor dem Versand ein Hinweis zur Verschlüsselung</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/tagebuch.webp" alt="Tagebucheintrag mit Datum und Uhrzeit" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Tagebuch</p>
+        <h3>Vorfälle sachlich festgehalten</h3>
+        <p>Ein Gedächtnisprotokoll mit Datum und Uhrzeit, nach Kategorien sortiert. Das Ereignisdatum wählst du frei, den Erfassungszeitpunkt hält die App automatisch fest.</p>
+        <ul>
+          <li>Änderungen bleiben nachvollziehbar</li>
+          <li>Kategorien und anwesende Personen</li>
+          <li>Export als PDF</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/briefe.webp" alt="Musterbrief an die Bank, Formular" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Musterbriefe</p>
+        <h3>Briefe, die du in Minuten ausfüllst</h3>
+        <p>Vorlagen für rein organisatorische Anliegen: Bank, Vermieter, Versicherung und Versorger. Name und Anschrift trägst du nur einmal ein.</p>
+        <ul>
+          <li>Vorschau vor dem Export</li>
+          <li>Als PDF oder Text weitergeben</li>
+          <li>Keine rechtlichen Forderungen, keine Rechtsberatung</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/geld.webp" alt="Bereich Finanzen und Werkzeuge mit Kostenrechner" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Geld</p>
+        <h3>Kosten und Vermögen geordnet</h3>
+        <p>Der Kostenrechner gibt dir eine grobe Orientierung, mit welchen Gerichts- und Anwaltskosten du rechnen kannst. Vermögen und Schulden erfasst du mit Zuordnung, ein Budget plant die Zeit danach.</p>
+        <ul>
+          <li>Unverbindliche Orientierungswerte</li>
+          <li>Vermögen und Schulden als PDF</li>
+          <li>Budget für heute und für danach</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/wissen.webp" alt="Wissensbereich mit Artikeln und Glossar" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Wissen</p>
+        <h3>Verständlich erklärt</h3>
+        <p>Artikel und ein Glossar zu den wichtigsten Begriffen rund um Trennung, Scheidung, Unterhalt und Kinder, ohne Juristendeutsch.</p>
+        <ul>
+          <li>Kurzfassungen für alle frei</li>
+          <li>Ausführliche Praxis-Abschnitte in Plus</li>
+          <li>Durchsuchbar</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/hilfe.webp" alt="Hilfe-Fenster mit Notrufnummern und Beratungsstellen" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Hilfe</p>
+        <h3>Hilfe ist immer einen Tipp entfernt</h3>
+        <p>Der Hilfe-Knopf steht auf jedem Bildschirm: Notruf, Hilfetelefone und Beratungsstellen. Er ist und bleibt kostenlos.</p>
+        <ul>
+          <li>Polizei 110, Rettungsdienst 112, Hilfetelefon Gewalt gegen Frauen 116 016</li>
+          <li>Beratungsstellen mit Kontakt</li>
+          <li>Tarnmodus: ein Tipp, und die App zeigt einen unauffälligen Notizen-Bildschirm</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="phone-col"><div class="phone"><img src="img/einstellungen.webp" alt="Einstellungen mit App-Sperre und Tarnmodus" width="640" height="1385" loading="lazy"></div></div>
+      <div>
+        <p class="label">Privatsphäre</p>
+        <h3>Deine Daten bleiben auf deinem Handy</h3>
+        <p>Kein Konto, keine Werbung, kein Tracking. Alles liegt verschlüsselt auf deinem Gerät.</p>
+        <ul>
+          <li>App-Sperre mit PIN oder Fingerabdruck</li>
+          <li>Verschlüsselte Datensicherung mit eigenem Passwort</li>
+          <li>Alle Daten per Schnell-Löschen entfernen</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section aria-labelledby="ablauf-titel">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="ablauf-titel">So fängst du an</h2>
+      <p>Du brauchst weder Konto noch Vorwissen.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Fünf Fragen beantworten</h3><p>Wo stehst du gerade, wohnt ihr zusammen, gibt es Kinder, wie wohnt ihr, fühlst du dich sicher. Mehr fragt Anka zu Beginn nicht.</p></li>
+      <li><h3>Plan bekommen</h3><p>Anka wählt die Aufgaben aus, die zu deiner Lage passen, und sagt dir, warum. Weitere Fragen stellst du später, wenn du magst.</p></li>
+      <li><h3>Schritt für Schritt abhaken</h3><p>Du siehst immer den nächsten Schritt. Unterlagen, Termine und Fragen sammelst du nebenbei am selben Ort.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="preise" class="alt" aria-labelledby="preise-titel">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="preise-titel">Kostenlos nutzen. Plus, wenn du mehr brauchst.</h2>
+      <p>Alles, was du zum Ordnen und Verstehen brauchst, ist kostenlos. Plus ist für mehr Menge und alle Exporte.</p>
+    </div>
+    <div class="plans">
+      <div class="plan">
+        <h3>Kostenlos</h3>
+        <p class="sub">Ohne Anmeldung, ohne Zeitlimit.</p>
+        <ul>
+          <li>Fahrplan und alle Aufgaben</li>
+          <li>Wissen und Glossar, Kostenrechner, Budget</li>
+          <li>Bis zu 5 Dateien ablegen</li>
+          <li>3 Tagebucheinträge, 1 Musterbrief als PDF</li>
+          <li>Umgangsplan einrichten, aktueller Monat</li>
+          <li>Hilfe, App-Sperre, Tarnmodus, Datensicherung und Löschen: immer</li>
+        </ul>
+      </div>
+      <div class="plan plus">
+        <h3>Anka Plus</h3>
+        <p class="sub">Für alle, die viel organisieren oder Unterlagen weitergeben.</p>
+        <ul>
+          <li>Unbegrenzt Dateien, Tagebucheinträge und Briefe</li>
+          <li>Alle PDF-, CSV- und Kalender-Exporte</li>
+          <li>Anwalts-Dossier und Versand an deinen Anwalt</li>
+          <li>Umgangskalender mit weiteren Monaten und Sonderterminen</li>
+          <li>Ausführliche Praxis-Abschnitte im Wissen</li>
+        </ul>
+      </div>
+    </div>
+    <div class="prices">
+      <div class="price"><strong>7,99 €</strong><span>pro Monat</span><span>jederzeit kündbar</span></div>
+      <div class="price"><strong>29,99 €</strong><span>alle 6 Monate, 5,00 € pro Monat</span><span class="tag">7 Tage kostenlos testen</span></div>
+      <div class="price"><strong>49,99 €</strong><span>pro Jahr, 4,17 € pro Monat</span><span class="tag">7 Tage kostenlos testen</span></div>
+    </div>
+    <p class="note">Abgerechnet wird über Google Play. Du kannst jederzeit dort kündigen. Bestehende Einträge bleiben nach dem Ende von Plus erhalten.</p>
+  </div>
+</section>
+
+<section id="datenschutz" aria-labelledby="datenschutz-titel">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="datenschutz-titel">Deine Daten gehören dir</h2>
+      <p>Eine Trennung ist privat. Anka ist so gebaut, dass wir deine Angaben gar nicht erst bekommen.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar"><h3>Nur auf deinem Gerät</h3><p>Situation, Finanzen, Kinder, Tagebuch und Dokumente liegen verschlüsselt auf deinem Handy. Es gibt keinen Server, auf dem sie landen.</p></div>
+      <div class="pillar"><h3>Kein Konto, kein Tracking</h3><p>Du brauchst keine Anmeldung. Anka zeigt keine Werbung und wertet dein Verhalten nicht aus.</p></div>
+      <div class="pillar"><h3>Du entscheidest, was rausgeht</h3><p>Exporte und E-Mails an deinen Anwalt löst du selbst aus, mit einem Hinweis vorab. Die temporären Kopien auf dem Handy werden danach gelöscht.</p></div>
+      <div class="pillar"><h3>Schutz, wenn es nötig ist</h3><p>App-Sperre mit PIN oder Fingerabdruck, ein Tarnmodus, der die App hinter einem Notizen-Bildschirm versteckt, und Schnell-Löschen.</p></div>
+    </div>
+    <p class="note"><a href="datenschutz.html">Datenschutzerklärung lesen</a></p>
+  </div>
+</section>
+
+<section id="faq" class="alt" aria-labelledby="faq-titel">
+  <div class="wrap">
+    <div class="section-head"><h2 id="faq-titel">Häufige Fragen</h2></div>
+    <div class="faq">
+      <details><summary>Ist Anka eine Rechtsberatung?</summary><p>Nein. Anka erklärt allgemein, ordnet und bereitet vor. Die App prüft keinen Einzelfall und ersetzt weder Anwalt noch Beratungsstelle. Rechner sind unverbindliche Orientierung.</p></details>
+      <details><summary>Wo werden meine Daten gespeichert?</summary><p>Ausschließlich verschlüsselt auf deinem Gerät. Es gibt keine Cloud-Synchronisation und kein Benutzerkonto.</p></details>
+      <details><summary>Was passiert, wenn ich das Handy wechsle?</summary><p>Du kannst eine verschlüsselte Datensicherung mit eigenem Passwort anlegen und auf dem neuen Gerät wiederherstellen. Ohne dein Passwort kann niemand sie lesen, auch wir nicht.</p></details>
+      <details><summary>Kann jemand anderes die App auf meinem Handy sehen?</summary><p>Du kannst eine App-Sperre mit PIN oder Fingerabdruck einschalten. Mit dem Tarnmodus zeigt ein Tipp im Hilfe-Fenster sofort einen unauffälligen Notizen-Bildschirm.</p></details>
+      <details><summary>Funktioniert die App ohne Internet?</summary><p>Ja. Internet wird nur gebraucht, um ein Plus-Abonnement zu kaufen und zu prüfen.</p></details>
+      <details><summary>Für wen ist Anka gedacht?</summary><p>Für Erwachsene in Deutschland, die sich trennen, getrennt leben oder sich scheiden lassen. Die Inhalte beziehen sich auf deutsches Recht.</p></details>
+      <details><summary>Was kostet Anka?</summary><p>Die Grundfunktionen sind kostenlos. Anka Plus kostet 7,99 € im Monat, 29,99 € für 6 Monate oder 49,99 € im Jahr. Bei Halbjahr und Jahr kannst du 7 Tage kostenlos testen.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="closing" aria-labelledby="bald-titel">
+  <div class="wrap">
+    <h2 id="bald-titel">Anka kommt bald in den Google Play Store.</h2>
+    <p>Fragen, Wünsche oder Rückmeldungen? Schreib uns an <a href="mailto:info@twelvedonkeys.de">info@twelvedonkeys.de</a>.</p>
+  </div>
+</section>
+
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="links">
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="agb.html">AGB</a>
+      <a href="impressum.html">Impressum</a>
+    </div>
+    <p>Anka bietet Organisationshilfe und allgemeine Informationen. Es ist keine Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes.</p>
+    <p>TwelveDonkeys, Inhaberin Zehra Genc, Kleine Ehrenfeldstraße 6, 44789 Bochum</p>
+  </div>
+</footer>
+
+<script src="js/lenis.min.js"></script>
+<script>
+  (function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce || typeof Lenis === 'undefined') return;
+    var lenis = new Lenis({ duration: 1.1, smoothWheel: true });
+    function raf(time) { lenis.raf(time); requestAnimationFrame(raf); }
+    requestAnimationFrame(raf);
+    document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        var id = a.getAttribute('href');
+        var target = id.length > 1 ? document.querySelector(id) : null;
+        if (target) { e.preventDefault(); lenis.scrollTo(target, { offset: -80 }); }
+      });
+    });
+  })();
+</script>
 </body>
 </html>
